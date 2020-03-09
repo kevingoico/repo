@@ -1,16 +1,16 @@
 #Programa hecho por kevin goicoechea
 #09/02/2020
 #Es un programa que pide 3 numeros y te devuelve el más grande.
-def grande (num1,num2,num4):
+def grande (num1,num2,num5):
     true = num1
     if true<num2:
         true = num2
-    if true<num4:
-        true = num4
+    if true<num5:
+        true = num5
     print('este es el numero más grande', true)
 
 num1=int(input('pon el primer numero: '))
 num2=int(input('pon el segundo numero: '))
 num3=int(input('pon el ultimo numero: '))
-print('estos son los numeros: ',num1,num2,num4)
-grande(num1,num2,num4)
+print('estos son los numeros: ',num1,num2,num5)
+grande(num1,num2,num5)
